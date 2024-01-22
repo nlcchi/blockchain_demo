@@ -1,0 +1,31 @@
+{
+  "name": "smartcontract",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@quasar/vite-plugin": "^1.6.0",
+    "@types/crypto-js": "^4.2.1",
+    "chai": "^5.0.0",
+    "crypto-js": "^4.2.0",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.19.4",
+    "jsencrypt": "^3.3.2",
+    "quasar": "^2.14.2",
+    "sass": "1.32.0",
+    "unocss": "^0.58.3",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}
